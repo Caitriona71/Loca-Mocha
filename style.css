@@ -23,6 +23,16 @@ h3 {
 	text-align: center;
 }
 
+.header {
+	background-image: url('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg');
+	background-repeat: center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 70px 0;
+    color: #FFFFFF;
+}
+
+
 .main {
 	background: #331302;
 	color: beige;
