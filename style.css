@@ -16,6 +16,14 @@ body {
 	padding: 10px;
 }
 
+.main {
+	background: #331302;
+	color: beige;
+	font-size: large;
+	height: 50vh;
+	flex: 3 0px;
+}
+
 .aside1 {
 	background: #331302;
 	font-size: large;
