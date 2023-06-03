@@ -16,6 +16,13 @@ body {
 	padding: 10px;
 }
 
+h1,
+h2,
+h3 {
+	color: beige;
+	text-align: center;
+}
+
 .main {
 	background: #331302;
 	color: beige;
