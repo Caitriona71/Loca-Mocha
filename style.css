@@ -23,6 +23,24 @@ h3 {
 	text-align: center;
 }
 
+/* navigation links */
+
+nav > a {
+	text-decoration: none;
+	color: #692d02;
+	font-size: 110%;
+	margin: 1rem;
+}
+
+/* colour change when a link is hovered over */
+nav > a:hover {
+	color: #fa8d28; 
+}
+
+.active {
+	border-bottom: 1px;
+}
+
 .header {
 	background-image: url('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg');
 	background-repeat: center no-repeat;
