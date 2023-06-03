@@ -1,8 +1,10 @@
+/* The body of the site with background colour */
 body {
 	margin: 0;
 	background-color: #d4c6b4;
 }
 
+/* A flex wrapper which styles the page layout */
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -16,11 +18,22 @@ body {
 	padding: 10px;
 }
 
+/* Styling of the different-sized headings */
 h1,
 h2,
 h3 {
 	color: beige;
 	text-align: center;
+}
+
+/* The hero image which spans the top part of each page */
+.header {
+	background-image: url('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg');
+	background-repeat: center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 70px 0;
+    color: #FFFFFF;
 }
 
 /* navigation links */
@@ -46,16 +59,7 @@ ul {
 	list-style-type: none;
 }
 
-.header {
-	background-image: url('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg');
-	background-repeat: center no-repeat;
-	background-size: cover;
-	border-radius: 10px;
-	padding: 70px 0;
-    color: #FFFFFF;
-}
-
-
+/* article main section styling */
 .main {
 	background: #331302;
 	color: beige;
@@ -64,12 +68,14 @@ ul {
 	flex: 3 0px;
 }
 
+/* aside-left section styling */
 .aside1 {
 	background: #331302;
 	font-size: large;
 	list-style-type: none;
 }
 
+/* aside-right section styling */
 .aside2 {
 	background: #331302;
 	font-size: large;
@@ -95,3 +101,21 @@ ul {
 	font-size: large;
 	margin: 1%;
 }
+
+/* section and footer layout order */
+.aside1 {
+	order: 1;
+}
+
+.main {
+	order: 2;
+}
+
+.aside2 {
+  order: 3;
+}
+
+.footer {
+  order: 4;
+}
+
