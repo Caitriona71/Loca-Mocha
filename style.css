@@ -41,6 +41,11 @@ nav > a:hover {
 	border-bottom: 1px;
 }
 
+/* unordered list with no style */
+ul {
+	list-style-type: none;
+}
+
 .header {
 	background-image: url('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg');
 	background-repeat: center no-repeat;
@@ -76,3 +81,17 @@ nav > a:hover {
 	color: beige;
 }
 
+/* footer styling */
+.footer {
+	background: #b04702;
+	color: beige;
+	display: inline;
+	bottom: 0;
+}
+
+/* footer icons styling */
+.footer i {
+	color: beige;
+	font-size: large;
+	margin: 1%;
+}
