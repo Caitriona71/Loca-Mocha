@@ -29,7 +29,7 @@ h3 {
 /* The hero image which spans the top part of each page */
 .header {
 	background-image: url(../images/hero-image.jpg);
-	background-repeat: center no-repeat;
+	background-repeat: no-repeat center;
 	background-size: cover;
 	border-radius: 10px;
 	padding: 70px 0;
