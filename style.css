@@ -28,12 +28,12 @@ h3 {
 
 /* The hero image which spans the top part of each page */
 .header {
-	background-image: url(../images/hero-image.jpg);/* hero image ('https://cdn.pixabay.com/photo/2016/08/29/21/24/cafe-1629208_1280.jpg')*/
+	background-image: url(../images/hero-image.jpg);
 	background-repeat: center no-repeat;
 	background-size: cover;
 	border-radius: 10px;
 	padding: 70px 0;
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 /* navigation links */
