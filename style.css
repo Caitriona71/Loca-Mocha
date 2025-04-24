@@ -28,7 +28,7 @@ h3 {
 
 /* The hero image which spans the top part of each page */
 .header {
-	background-image: url(../images/hero-image.jpg);
+	background-image: url(./assets/images/hero-image.jpg);
 	background-repeat: no-repeat center;
 	background-size: cover;
 	border-radius: 10px;
