@@ -3,4 +3,4 @@ Loca Mocha is a site showcasing the business of a barista café. It's aim is to 
 <br>
 <br>
 
-This is the live site: [Loca Mocha](https://caitriona71.github.io/loca-mocha/)
+This is the live site: [Loca Mocha](https://caitriona71.github.io/Loca-Mocha/)
